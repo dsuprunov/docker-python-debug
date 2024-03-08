@@ -19,7 +19,7 @@ def root():
     )
     logging.debug(f'Hits: {hits}')
 
-    ic('Hits:', hits)
+    ic(hits)
 
     return {
         'status': 'OK',
